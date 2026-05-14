@@ -1,0 +1,23 @@
+{
+  "skill_name": "sermoes-biblicos",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Quero preparar um sermão sobre graça para o culto de domingo, vou usar Efésios 2:8-9",
+      "expected_output": "Cria pasta sermoes/YYYY-MM-DD-graca-efesios/ com sermao.md completo (introdução, 3 pontos, aplicação, conclusão), links.md e pasta material-auxiliar/",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Me ajuda a preparar um estudo bíblico sobre fé e obras para minha célula de jovens, quero usar Tiago 2",
+      "expected_output": "Cria pasta estudos/YYYY-MM-DD-fe-e-obras-tiago/ com estudo.md completo (contexto, perguntas de observação/interpretação/aplicação), links.md e pasta material-auxiliar/",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Vou liderar um retiro e preciso de uma mensagem sobre identidade em Cristo, não sei bem qual texto usar",
+      "expected_output": "Pergunta interativamente, sugere 2-3 textos bíblicos relevantes, faz brainstorming, cria estrutura completa após aprovação",
+      "files": []
+    }
+  ]
+}
